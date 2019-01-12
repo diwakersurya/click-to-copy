@@ -1,4 +1,4 @@
-import React, { Component } from "React";
+import React, { Component } from "react";
 export default class Copyable extends Component {
   copyToClipboard(index) {
     let refElem = this["child-" + index];
