@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/diwakersurya/click-to-copy.svg?branch=master)](https://travis-ci.org/diwakersurya/click-to-copy)
 
-[![codecov](https://codecov.io/gh/diwakersurya/click-to-copy/branch/master/graph/badge.svg)](https://codecov.io/gh/diwakersurya/click-to-copy)
+[![codecov](https://codecov.io/gh/diwakersurya/click-to-copy/branch/master/graph/badge.svg)](https://codecov.io/gh/diwakersurya/click-to-copy) [![Greenkeeper badge](https://badges.greenkeeper.io/diwakersurya/click-to-copy.svg)](https://greenkeeper.io/)
 
 A library for component wrapping labels and h1 so that we can click to copy the
 their text.
