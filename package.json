@@ -1,6 +1,6 @@
 {
     "name": "click-to-copy",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A library for component wrapping labels and h1 so that we can click to copy the their text.",
     "main": "dist/index.js",
     "scripts": {
@@ -8,7 +8,7 @@
         "lint:fix": "eslint src --ext .js --fix",
         "test": "jest",
         "validate": "npm-run-all --parallel lint:fix test build",
-        "report-coverage":"cat ./coverage/lcov.info | codecov",
+        "report-coverage": "cat ./coverage/lcov.info | codecov",
         "prebuild": "rimraf dist",
         "build": "npm-run-all --parallel build:*",
         "build:main": "babel --out-dir dist --ignore __tests__/ src",
